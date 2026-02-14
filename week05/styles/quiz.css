@@ -1,0 +1,60 @@
+/* Page Background */
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #dcdcdc;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Container */
+main {
+    max-width: 700px;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 30px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Heading */
+h1 {
+    color: #0b1a78;
+    margin-bottom: 30px;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Question spacing */
+.form-group {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Number styling */
+label span {
+    color: #0b1a78;
+    font-weight: bold;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+/* Code example box */
+.code-box {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    margin: 15p
